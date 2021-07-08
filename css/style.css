@@ -1,7 +1,6 @@
 * {
 	padding: 0;
 	margin: 0;
-	box-sizing: border-box;
 }
 
 html {
@@ -9,7 +8,6 @@ html {
 }
 
 .nav {
-	box-sizing: unset;
 	height: 38px;
 	padding: 8px 16px;
 	background-color: #fff;
@@ -54,6 +52,27 @@ html {
 
 .header {
 
+}
+
+.header .header-img {
+	width: 100%;
+}
+
+.header .header-heading {
+	position: absolute;
+	top: 58%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin-top: 16px;
+	font-size: 36px;
+	color: #fff;
+	letter-spacing: 4px;
+}
+
+.header .header-heading b {
+	background-color: #000;
+	opacity: 0.75;
+	padding: 8px 16px;
 }
 
 .content {
