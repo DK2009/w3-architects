@@ -7,3 +7,59 @@
 html {
 	font-family: Verdana, sans-serif;
 }
+
+.nav {
+	box-sizing: unset;
+	height: 38px;
+	padding: 8px 16px;
+	background-color: #fff;
+	font-size: 15px;
+	box-shadow: 0 0 2px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.logo {
+	display: inline-block;
+	padding: 8px 16px;
+	letter-spacing: 4px;
+	line-height: 22px;
+}
+
+.logo:hover,
+.nav-links li:hover {
+	cursor: pointer;
+	background-color: #ccc;
+}
+
+.nav-links {
+	display: inline-block;
+	float: right;
+	line-height: 22px;
+}
+
+.nav-links li {
+	list-style: none;
+	display: inline-block;
+	padding: 8px 16px;
+}
+
+.nav-links li a {
+	text-decoration: none;
+	color: #000;
+	letter-spacing: 4px;
+}
+
+.header {
+
+}
+
+.content {
+
+}
+
+.footer {
+
+}
